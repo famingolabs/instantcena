@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width", initial-scale=1.0, maximum-scale=1.0, user-scalable=no>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<!--META DATA -->
 	<title>instantcena.ca</title>
   <link rel="icon" type="image/png" href="udntcme.png"/>
@@ -12,20 +12,16 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body onload="setYear()">
+	<!-- Video -->
 	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XgUB3lF9IQA?autoplay=1&controls=0&iv_load_policy=3&loop=1&playlist=XgUB3lF9IQA&modestbranding=1&showinfo=0&start=0&end=13&version=3&enablejsapi=1&playsinline=1" frameborder="0" allowfullscreen></iframe>
-    <!--
-    Version 1: XgUB3lF9IQA
-    Version 2: 4k1xY7v8dDQ
-    Version 3: L1mTtP1rQ1o
-    -->
 	<!-- Footer -->
 	<div class="footer">
-        <div class="container-fluid">
+        	<div class="container-fluid">
 			<div class="row-fluid">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding: 0 0;">
-					<p class="text-muted">&copy; <span id="yearFooter"></span> Famingo Labs Inc. All rights reserved.</p>
+					<a class="text-muted"><a href="https://www.famingolabs.com">&copy; <span id="yearFooter"></span> Famingo Labs Inc.</a> All rights reserved.</p>
 				</div>
-            </div>
+			</div>
 		</div>
 	</div>
 	<!-- jQuery JavaScript -->
@@ -53,13 +49,12 @@
 		  });
 		});
 		/*---- Google Analytics ----*/
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-96172058-1', 'auto');
-  ga('send', 'pageview');
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-96172058-1', 'auto');
+		ga('send', 'pageview');
 	</script>
 	<style type="text/css">
 		html,body {
@@ -77,7 +72,13 @@
 			color: rgb(102,102,102);
 			width: 100%;
 		}
-
+		.a{
+			text-decoration: none;
+		}
+		.a: hover{
+			text-decoration: none;
+			font-weight: bold;
+		}
 		.text-muted{
 			text-align: center;
 			color: rgb(102,102,102);
