@@ -5,11 +5,47 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<!--META DATA -->
 	<title>instantcena.ca</title>
-  <link rel="icon" type="image/png" href="udntcme.png"/>
+  	<link rel="icon" type="image/png" href="udntcme.png"/>
 	<meta name="author" content="Kevin Camellini">
 	<meta name="Description" content="You can't see me.">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<style type="text/css">
+		html,body {
+			width: 100%;
+			height: 100%;
+			background-color: black;
+		}
+		.footer{
+			background-color: rgba(0,0,0,1);
+			position: relative;
+			padding: 0px 0px;
+			letter-spacing: 2px;
+			font-size: 0.9em;
+			color: rgb(102,102,102);
+			width: 100%;
+		}
+		a{
+			text-decoration: none;
+			color: rgb(102,102,102);
+		}
+		a: hover{
+			text-decoration: none;
+			font-weight: bold;
+		}
+		.text-muted{
+			text-align: center;
+			color: rgb(102,102,102);
+		}
+		.embed-responsive-item{
+			overflow: hidden;
+		}
+		@media (min-device-width: 737px){
+			.embed-responsive-item{
+				pointer-events: none;
+			}
+		}
+	</style>
 </head>
 <body onload="setYear()">
 	<!-- Video -->
@@ -56,41 +92,5 @@
 		ga('create', 'UA-96172058-1', 'auto');
 		ga('send', 'pageview');
 	</script>
-	<style type="text/css">
-		html,body {
-			width: 100%;
-			height: 100%;
-			background-color: black;
-		}
-		/*---------- Footer Section ----------*/
-		.footer{
-			background-color: rgba(0,0,0,1);
-			position: relative;
-			padding: 0px 0px;
-			letter-spacing: 1.5px;
-			font-size: 0.9em;
-			color: rgb(102,102,102);
-			width: 100%;
-		}
-		a{
-			text-decoration: none;
-		}
-		a: hover{
-			text-decoration: none;
-			font-weight: bold;
-		}
-		.text-muted{
-			text-align: center;
-			color: rgb(102,102,102);
-		}
-		.embed-responsive-item{
-			overflow: hidden;
-		}
-		@media (min-device-width: 737px){
-			.embed-responsive-item{
-				pointer-events: none;
-			}
-		}
-	</style>
 </body>
 </html>
